@@ -1,0 +1,34 @@
+{
+  "name": "db-search-tool",
+  "version": "1.0.0",
+  "description": "We can do some quick and easy database queries with this tool",
+  "main": "index.js",
+  "dependencies": {
+    "colors-console": "^1.0.3",
+    "inquirer": "^8.2.4",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "pkg": "^5.7.0"
+  },
+  "scripts": {
+    "test": "node index.js",
+    "pkg": "pkg index.js --out-path=dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pengwanheng/db-search-tool.git"
+  },
+  "keywords": [
+    "node",
+    "db search",
+    "search",
+    "db-search-tool"
+  ],
+  "author": "pengwanheng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pengwanheng/db-search-tool/issues"
+  },
+  "homepage": "https://github.com/pengwanheng/db-search-tool#readme"
+}
